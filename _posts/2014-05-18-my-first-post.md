@@ -6,6 +6,8 @@ source: http://blog.raju.com.au
 category: news
 ---
 
+#Heading 1
+
 Some content about my first post
 
 What's there to say!

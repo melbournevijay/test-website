@@ -14,8 +14,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<!-- stylesheet -->
-		<link rel="stylesheet" href="css/kraken.css" type="text/css">
-		<link rel="stylesheet" href="css/prism.css" type="text/css">
+		<link rel="stylesheet" href="{{site.baseurl}}/css/style.css" type="text/css">
 
 		<script>
 			if ( 'querySelector' in document && 'addEventListener' in window && Array.prototype.forEach ) {
@@ -46,7 +45,9 @@
 
 		<header class="container" id="pageTop">
 			<strong> My website</strong>
-			<nav><ul><li><a href="{{site.baseurl}}/index.html">Home</a></li><li><a href="{{site.baseurl}}/news.html">News</a></li></ul></nav>
+			
+			{% include nav.html %}
+
 		</header>	
 <hr/>
 		<section>
@@ -54,6 +55,10 @@
 		</section>
 <hr/>
 		<footer class="container">
+
+			{% include nav.html %}
+
+
 			<p class="copyright">&copy; Company 2014</p>
 			<p class="designer"><a href="http://raju.com.au" target="_blank">raju design</a></p>
 			<p class="standards"><span class="icon-html5" title="HTML5"></span><span class="icon-css3" title="CSS3"></span><span class="icon-wordpress" title="WordPress"></span></p>

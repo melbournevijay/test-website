@@ -1,5 +1,29 @@
 html {
 	margin:0;
 	padding: 0;
-	font: normal 100%/1.6 Georgia, serif;
+	font: normal 1.2em/1.6 Georgia, serif;
+}
+nav .nav a {
+	text-decoration: none;
+}
+nav ul, nav li {
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	display: inline-block;
+	padding: .25em;
+	margin-right: .5em;
+}
+.nav-header a {
+	color:#333;
+}
+.nav-footer a {
+	color: #ccc;
+}
+a.current {
+	color:red;
+}
+footer {
+	font-size: .75em;
 }

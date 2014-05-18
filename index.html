@@ -1,1 +1,69 @@
-<h1>Test web site</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Force latest available IE rendering engine and Chrome Frame (if installed) -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<!-- Document Title & Description -->
+		<title>Test Web Site</title>
+
+		<!-- Mobile Screen Resizing -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- stylesheet -->
+		<link rel="stylesheet" href="css/kraken.css" type="text/css">
+		<link rel="stylesheet" href="css/prism.css" type="text/css">
+
+		<script>
+			if ( 'querySelector' in document && 'addEventListener' in window && Array.prototype.forEach ) {
+				document.documentElement.className += 'js';
+			}
+		</script>
+
+		<!-- HTML5 Shim for IE 6-8 -->
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+	</head>
+
+	<body>
+
+		<!-- Old Browser Warning -->
+		<!-- If you're supporting IE 6-7, remove this -->
+		<!--[if lt IE 8]>
+			<section class="container">
+				Did you know that your web browser is a bit old? Some of the content on this site might not work right as a result. <a href="http://whatbrowser.org">Upgrade your browser</a> for a faster, better, and safer web experience.
+			</section>
+		<![endif]-->
+
+		<p>
+			<a class="scroll" data-speed="2000" data-easing="linear" href="#pageBottom">To page bottom</a><br>
+		</p>
+
+		<header class="container" id="pageTop">
+			<h1 class="animated slideInDown"><span class="icon-switch logo"></span> A demo page</h1>
+
+		</header>	
+
+		<section>
+			<p>Test content here</p>
+		</section>
+
+		<footer class="container">
+			<p class="copyright">&copy; Company 2014</p>
+			<p class="designer"><a href="http://raju.com.au" target="_blank">raju design</a></p>
+			<p class="standards"><span class="icon-html5" title="HTML5"></span><span class="icon-css3" title="CSS3"></span><span class="icon-wordpress" title="WordPress"></span></p>
+		</footer>
+		
+		<p>	
+			<a id="pageBottom" class="scroll" data-speed="2000" data-easing="linear" href="#pageTop">Back to top</a><br>
+		</p>
+
+		<!-- Javascript -->
+		<script src="js/kraken.js"></script>
+	</body>
+</html>

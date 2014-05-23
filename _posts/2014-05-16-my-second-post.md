@@ -3,7 +3,7 @@ layout: news
 title: My second post
 meta: some excerpt information about my second post
 source: http://blog.raju.com.au
-category: seconds
+category: news
 ---
 
 Some content about my secont post
